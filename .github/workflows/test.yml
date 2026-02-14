@@ -1,0 +1,14 @@
+name: GitHub Actions Demo
+run-name: ${{ github.actor }} is running the GitHub Actions Demo
+on: [push]
+jobs:
+  explore-github-actions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Say Hello World
+        run: echo "Hello World!"
+      - name: HELLO
+        run: |
+          echo "The repository ${{ github.repository }} contains the following files:"
+          ls -a

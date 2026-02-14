@@ -1,1 +1,16 @@
-
+--- # Optional: indicates the start of a YAML document
+name: Martin D'vloper # Key-value pair with a string value
+age: 26 # Key-value pair with an integer value
+is_active: true # Key-value pair with a boolean value
+hobbies: # A list (sequence)
+  - painting
+  - playing_music
+  - cooking
+programming_languages: # A nested dictionary (map)
+  java: Intermediate
+  python: Advanced
+  javascript: Beginner
+address: # Another nested dictionary
+  street: 123 Main St
+  city: Anywhere
+  zip_code: "12345" # String in quotes to ensure correct parsing

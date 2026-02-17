@@ -6,13 +6,13 @@
 }
 
 body {
-    background-color: #333;
-    color: #fff;
+    background-color: #cacaca;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
 }
 
 .container {
